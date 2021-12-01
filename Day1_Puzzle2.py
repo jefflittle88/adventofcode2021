@@ -22,6 +22,7 @@ for reading in depth_list:
             current_sum += depth_list[id]
         difference = current_sum - previous_sum
         print(f"The previous sum was {previous_sum} and the current sum is {current_sum}")
+        print(f"Giving us a difference of {difference}")
         
         if (difference) > 0:
             print (f"Depth increased by {difference}")
